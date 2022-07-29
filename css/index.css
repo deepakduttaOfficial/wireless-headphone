@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --defaultPadding: 35px 50px;
+}
+
+body {
+  padding: var(--defaultPadding);
+  background-color: #ffffff;
+}
+
+/* Navbar style ------------> */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img[alt="logo"] {
+  height: 40px;
+  margin-right: 110px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0px 35px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.active-item {
+  font-weight: 800;
+  color: #fe5e35;
+}
+/* ----------------------- */
+
+/* ---------------intro-section----------------- */
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 50%;
+}
+
+.left-section > h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  padding: 20px 0 0;
+}
+
+.left-section > h3 > img {
+  height: 34px;
+  margin: 14px 0 0 7px;
+}
+
+.left-section > h1 {
+  font-size: 62px;
+  font-family: "Fredoka One", cursive;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.sub-headlines {
+  display: flex;
+  flex-direction: column;
+  margin: 17px 65px;
+}
+
+.sub-headlines > h5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.sub-headlines > h5 > img {
+  background-color: #fe5e35;
+  border-radius: 50%;
+  padding: 7px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  color: #c3c3c3;
+  margin: 20px 0;
+}
+
+.action-btns {
+  margin-top: 25px;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  background-color: #fe5e35;
+  border: none;
+  cursor: pointer;
+  border-radius: 36px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+/* ------------------- */
+
+/* -----------right-section--------------- */
+.right-section {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headphone-div {
+  position: relative;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.discount {
+  position: absolute;
+  top: 252px;
+  left: -59px;
+  height: 160px;
+  filter: drop-shadow(4px 5px 0px rgb(0 0 0 / 0.4));
+}
+
+.discount-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 299px;
+  left: -25px;
+  color: #ffffff;
+  font-family: "Fredoka One", cursive;
+  font-weight: 300;
+}
+.discount-content > h4 {
+  font-family: "Fredoka One", cursive;
+  font-weight: 300;
+  font-size: 13px;
+}
+.discount-content > h1 {
+  font-family: "Fredoka One", cursive;
+  font-weight: 300;
+  font-size: 50px;
+}
+
+img[alt="headphone"] {
+  height: 450px;
+}
+/* -------------- */
+
+/* --------dots---------- */
+.dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 25px;
+  /* align-items: center; */
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.yellow-dot {
+  background-color: #fbd101;
+}
+
+.tomato-dot {
+  background-color: #fe5e35;
+}
+.black-dot {
+  background-color: #1d1d1d;
+}
+
+/* Extra feture---------> */
+.nav-item:hover {
+  color: #e76747;
+}
+
+.action-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: 0.2s;
+}
+
+.dot {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
