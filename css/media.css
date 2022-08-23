@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1278px) {
+  .left-section > h1 {
+    font-size: 40px;
+  }
+  img[alt="headphone"] {
+    height: 300px;
+  }
+  img[alt="actions"] {
+    display: none;
+  }
+  .right-section {
+    width: auto;
+  }
+  .discount {
+    top: 174px;
+    left: -37px;
+    height: 117px;
+  }
+  .discount-content {
+    top: 210px;
+    left: -7px;
+  }
+  .discount-content > h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 916px) {
+  .nav-items {
+    display: none;
+  }
+  .sub-headlines {
+    margin: 10px;
+  }
+  .intro-section {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-section {
+    width: 100%;
+    align-items: center;
+  }
+}

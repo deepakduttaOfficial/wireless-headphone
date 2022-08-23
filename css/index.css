@@ -12,6 +12,8 @@
 body {
   padding: var(--defaultPadding);
   background-color: #ffffff;
+  max-width: 1600px;
+  margin: auto;
 }
 
 /* Navbar style ------------> */
